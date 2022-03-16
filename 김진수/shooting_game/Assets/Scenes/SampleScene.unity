@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 246019666}
   - component: {fileID: 246019665}
   - component: {fileID: 246019664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 400341365}
   - component: {fileID: 400341364}
   - component: {fileID: 400341363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 880434690}
   - component: {fileID: 880434689}
   - component: {fileID: 880434691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 892086496}
   - component: {fileID: 892086495}
   - component: {fileID: 892086494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 984371560}
   - component: {fileID: 984371559}
   - component: {fileID: 984371561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 995814754}
   - component: {fileID: 995814753}
   - component: {fileID: 995814752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 1003462120}
   - component: {fileID: 1003462119}
   - component: {fileID: 1003462118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1176,7 +1176,7 @@ GameObject:
   - component: {fileID: 1432610286}
   - component: {fileID: 1432610285}
   - component: {fileID: 1432610284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 1622253908}
   - component: {fileID: 1622253907}
   - component: {fileID: 1622253909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1494,11 +1494,11 @@ GameObject:
   - component: {fileID: 1690858485}
   - component: {fileID: 1690858488}
   - component: {fileID: 1690858487}
-  - component: {fileID: 1690858489}
   - component: {fileID: 1690858490}
+  - component: {fileID: 1690858489}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1581,9 +1581,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 2
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1613,7 +1613,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8, y: 1}
+  m_Size: {x: 0.6, y: 0.9}
   m_EdgeRadius: 0
 --- !u!95 &1690858489
 Animator:
@@ -1647,6 +1647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 4
+  jumpPower: 20
 --- !u!1 &1946272535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1659,7 @@ GameObject:
   - component: {fileID: 1946272538}
   - component: {fileID: 1946272537}
   - component: {fileID: 1946272536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,7 +1768,7 @@ GameObject:
   - component: {fileID: 2038512446}
   - component: {fileID: 2038512445}
   - component: {fileID: 2038512444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor Middle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
